@@ -1,0 +1,30 @@
+body{
+    background-color: blueviolet ;
+}
+#etiquetas{
+    background-color: black ;
+    width: 100%;
+    color: cornsilk;
+    height: 100px;
+}
+.azul{
+    background-color: blue;
+}
+div{
+    background-color: brown;
+    width: 200px;
+}
+li{
+    display: inline;
+    padding: 10px;
+    border: 1px solid white;
+    margin: 2px;
+    background-color: violet;
+    cursor: pointer;
+    box-shadow: 5px 5px 4px white;
+}
+li:hover{
+    background-color: tomato;
+    color: thistle;
+    
+}
