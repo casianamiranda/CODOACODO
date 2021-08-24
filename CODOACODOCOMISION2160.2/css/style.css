@@ -1,0 +1,67 @@
+/* selector{ propiedad:valor; propiedad:valor;] */
+
+    html{
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+    }
+    body{
+        background-color: rgb(238, 130, 238);
+        width: 100%;
+    }
+    h1{
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    li{
+        display: inline;
+        background-color: blue;
+        border: 1px solid black;
+        padding: 15px;
+        color: white;
+        cursor: pointer;
+        box-shadow: 4px 5px 3px yellow;
+    }
+    li:hover{
+        background-color: yellowgreen;
+        
+    }
+    ul{
+        text-align: center;
+    }
+    #padre{
+        background-color: cyan;
+        display: flex;
+        justify-content: space-around;
+    }
+    .hija{
+        background-color: black;
+        width: 150px;
+        height: 150px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    h2{
+        text-align: center;
+
+    }
+    p{
+        text-align: center;
+        color: thistle;
+        background-color: teal;
+        padding: 10px;
+        border: turquoise;
+    }
+    #init, #add, #status, #commit, #push{
+        width: 20%;
+        float: left;
+        border: 10px;
+        box-sizing: border-box;
+        }
+        span{
+            color: tomato;
+        }
+        div#init{
+            background-color: teal;
+        }
