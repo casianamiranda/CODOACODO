@@ -1,0 +1,80 @@
+#gatito{
+    color: green;
+    animation-name: gatito;
+    animation-duration: 5s;
+}
+#corazon{
+    color: red;
+    animation-name: corazon;
+    animation-duration: 5s;
+    animation-iteration-count: 2s;
+    animation-direction: initial;
+    animation-delay: 3s;
+    position: inherit;
+    left: 200px;
+}
+@keyframes corazon{
+    from{color: red;}
+    to{color: violet;}
+    25%{top: 200px;}
+    50%{left: 220px;}
+    75%{top: 0px;}
+    100%{left: 20px;}
+}
+@keyframes gatito{
+    from{color: green;top: 0px;}
+    to{color: blanchedalmond;top: 50px;}
+    25%{top: 200px;}
+    50%{left: 220px;}
+}
+.cuadros{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+#uno, #tres{
+    background-color: blueviolet;
+    color: white;
+    position: relative;
+    top: 0px;
+    animation-name: mover;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes mover{
+    25%{top: 200px;}
+    50%{left: 220px;}
+    75%{top: 0px;}
+    100%{left: 20px;}
+}
+#dos, #cuatro{
+    background-color: khaki;
+    position: relative;
+    animation-name: mover, gatito;
+    animation-duration: 5s, 6s;
+    animation-iteration-count: infinite, infinite;
+    animation-delay: 0s, 5s;
+}
+ul, li{
+    display: inline;
+    padding: 10px;
+    background-color: violet;
+    color: wheat;
+    cursor: pointer;
+}
+ul, li:hover{
+    animation-name: menu;
+    animation-duration: 3s;
+    animation-timing-function: 5s;
+    animation-delay: 0s;
+}
+@keyframes menu{
+    100%{
+        padding: 15px;
+    background-color: rgba(238, 130, 238, 0.575);
+    color: black;
+    box-shadow: 5px 5px 5px black;
+    }
+}
