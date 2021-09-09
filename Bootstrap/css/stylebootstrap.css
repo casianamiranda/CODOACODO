@@ -1,0 +1,14 @@
+
+}
+.btn-primary{
+    background-color: chartreuse;
+}
+.btn-primary:hover{
+    background-color: forestgreen;
+}
+.bg-otra{
+    background-color: red;
+}
+.bg-secondary{
+    background-color: violet;
+}
