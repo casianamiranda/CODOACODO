@@ -26,7 +26,7 @@ if(hayClases == false || terminoLaClase == true){
 let elemento = document.getElementById("principal");
 // console.log(elemento)
 elemento.innerHTML="MI valor para innerHTML"
-elemento.innerHTML+='<p>' + otra_variable + '</p>';
+elemento.innerHTML+='<p>' + otra_variable + '</p>'; /* concatenacion con el +*/
 document.write("<h3 class='text-center bg-primary'>Hola buen día</h3>")
 document.write("<h3>Cómo están?</h3>")
 
@@ -45,9 +45,9 @@ elemento.innerHTML+="<div class=\"alert alert-success\" role\=\"alert\">"+mensaj
 
 //let menu = prompt("Selecciona el pedido: \n 1. Milanesa con Fritas \n 2. Milanesa Napolitana\n 3. Fritas solas");
 menu="2";
-if(menu === '1'){/*Valor y el tipo */
+if(menu === '1'){/*Valor y el tipo */ /* si es veradera, se hace todolo que esta por debajo de if*/
     elemento.innerHTML="<div class=\"alert alert-success\" role=\"alert\">Disfruta de tu Milanesa con fritas!</div>"
-}else if(menu === '2'){/*Valor y el tipo */
+}else if(menu === '2'){/*Valor y el tipo */ /* si es falsa, se hace todolo que esta por debajo de else*/
     elemento.innerHTML="<div class=\"alert alert-success\" role=\"alert\">Disfruta de tu Napo con fritas!</div>"
 }else if(menu === '3'){/*Valor y el tipo */
     elemento.innerHTML="<div class=\"alert alert-success\" role=\"alert\">Disfruta de tus fritas!</div>"
